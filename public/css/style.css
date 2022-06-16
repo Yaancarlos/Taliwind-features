@@ -1,0 +1,11 @@
+.hover-ani-shake:hover>.animation-shake {
+    animation: shake .75s;
+    -webkit-animation: shake .75s;
+}
+
+@keyframes shake {
+    20%{ transform:translateX(10px) ; -webkit-transform:translateX(10px) ; -moz-transform:translateX(10px) ; -ms-transform:translateX(10px) ; -o-transform:translateX(10px) ; }
+    40%{ transform:translateX(-10px) ; -webkit-transform:translateX(-10px) ; -moz-transform:translateX(-10px) ; -ms-transform:translateX(-10px) ; -o-transform:translateX(-10px) ; }
+    60%{ transform:translateX(10px) ; -webkit-transform:translateX(10px) ; -moz-transform:translateX(10px) ; -ms-transform:translateX(10px) ; -o-transform:translateX(10px) ; }
+    80%{ transform:translateX(-10px) ; -webkit-transform:translateX(-10px) ; -moz-transform:translateX(-10px) ; -ms-transform:translateX(-10px) ; -o-transform:translateX(-10px) ; }
+}
