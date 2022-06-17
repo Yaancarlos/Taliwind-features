@@ -9,3 +9,23 @@
     60%{ transform:translateX(10px) ; -webkit-transform:translateX(10px) ; -moz-transform:translateX(10px) ; -ms-transform:translateX(10px) ; -o-transform:translateX(10px) ; }
     80%{ transform:translateX(-10px) ; -webkit-transform:translateX(-10px) ; -moz-transform:translateX(-10px) ; -ms-transform:translateX(-10px) ; -o-transform:translateX(-10px) ; }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #2e1893;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #2e1893b2;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
