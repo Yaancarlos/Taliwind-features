@@ -3,6 +3,10 @@
     -webkit-animation: shake .75s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @keyframes shake {
     20%{ transform:translateX(10px) ; -webkit-transform:translateX(10px) ; -moz-transform:translateX(10px) ; -ms-transform:translateX(10px) ; -o-transform:translateX(10px) ; }
     40%{ transform:translateX(-10px) ; -webkit-transform:translateX(-10px) ; -moz-transform:translateX(-10px) ; -ms-transform:translateX(-10px) ; -o-transform:translateX(-10px) ; }
@@ -28,4 +32,9 @@
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+}
+
+.radio-section:checked ~ .checkmark {
+    background-color: #fff;
+    border-color: #fff;
 }
